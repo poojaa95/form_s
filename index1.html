@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        #course{
+            background-color:brown;
+        }
+        body{
+            background-color:beige;
+        }
+        button{
+            background-color: skyblue;
+        }
+        legend{
+            font-size: larger;
+        }
+    </style>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form action="success.html" method="post">
+        <fieldset>
+            <legend align="center">Student Registration Form</legend>
+             <pre>       <img src="data:image/png;base64,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"
+                width="100" height="100"></pre>
+            <pre>                                         Username:</pre>
+            <input type="username" name="username" placeholder="Username" style="display: block; margin:auto; width:50%;" required>
+            <br>
+            <pre>                                         Password:</pre>
+            <input type="password" name="password" placeholder="Password" style="display: block; margin:auto; width:50%;" required>
+            <pre>                                         <input type="checkbox" name="remember me">Remember Me</pre>
+            <pre>                                         Email:</pre>
+            <input type="email" name="email" placeholder="Email" style="display: block; margin:auto; width:50%;" required>
+            <br>
+            <pre>                                         Phone Number:</pre>
+            <input type="tel" name="phonenumber" placeholder="Phone Number" style="display: block; margin:auto; width:50%;" required>
+            <br>
+            <pre>                                         Select your DOB:</pre>
+            <input type="date" name="date" placeholder="Date of Birth" style="display: block; margin:auto; width:50%;" required>
+             <label><pre>                                         Choose Your Stream:</pre></label>
+            <select id="course" name="stream-details" style="display: block; margin:auto; width:50%;" required>
+                <option value="btech">B.Tech</option>
+                <option value="mtech">M.Tech</option>
+                <option value="mba">MBA</option>
+                <option value="law">LAW</option>
+                 <option value="other">Others</option>
+            </select>
+            <br>
+            <label><pre>                                         Choose Your Branch:</pre></label>
+            <select id="course" name="branch-details" style="display: block; margin:auto; width:50%;" required>
+                <optgroup label="CSE">
+                <option value="cse">CSE-Core</option>
+                <option value="aiml">AI&ML</option>
+                <option value="aids">AI&DS</option>
+                <option value="it">IT</option>
+                </optgroup>
+                <optgroup label="Others">
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+                <option value="chemical">CHEMICAL</option>
+                <option value="mechanical">MECHANICAL</option>
+                </optgroup>
+            </select>
+            <br>
+            <pre>                                         <input type="checkbox" name="agree" required>I've read the terms carefully and I agree to them.</pre>
+            <br>
+            <button type="submit" value="submit" style="display: block; margin:auto; width:50%;">Submit</button>
+            <br>
+            <button type="reset" value="clear" style="display: block; margin:auto; width:50%;">Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
